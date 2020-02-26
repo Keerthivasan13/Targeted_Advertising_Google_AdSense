@@ -1,0 +1,9 @@
+Below is the summary of the Targeted Advertising project.
+1. The webpage data will be collected by the CRAWLER. 
+2. The webpage content is mapped to a category from a predefined list of categories by the DATA MINING ENGINE (Classifier). 
+3. The same is done for data collected from the Advertiser who wants to advertise their products.
+4. Their products are also classified based on the keywords.
+5. The website user or the public who sees the webpage will be asked to give his IP address to the website. The website passes that information to our engine. The engine gets the geo-location of the user from his IP.
+6. A RANKER engine is used to rank the advertisements based on the ranking algorithm created by us. Location and the keyword mapping is done by the engine.
+7. The webpage category can display certain advertisement categories and this mapping is the Keyword mapping.
+8. Finally using JavaScript the top Advertisements are displayed on the webpage. Their viewcount and clicks count will be updated in the database.
