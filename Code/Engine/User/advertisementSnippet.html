@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script>
+    $(window).on('load',function(){
+      $.get("https://api.ipify.org",function(data){ localStorage['ip']=data;});
+        $.ajax({url: "http://localhost:8080/Advertising/rank.jsp",
+				data:{ ip: localStorage['ip'],url:$(location).attr('href')},
+				success: function(result){
+            $("#hi").html(result);
+        }});
+});
+</script>
+</head>
+<body>
+
+<div id="hi"></div>
+</body>
+</html>
