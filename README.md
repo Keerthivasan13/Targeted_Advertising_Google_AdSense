@@ -15,11 +15,11 @@ This project aims to do **E-marketing** by connecting the **Business Advertisers
 
 ## Implementation ##
 ### 1. Natural Language Processing - Information Retrieval 
-<p> **1. Webpage Keyword Extractor -** Designed a Multi-threaded **Crawler** to parse and extract the keywords from each webpage's Metatag using JSoup  
-**2. Keyword Splitter -** The words and phrases were split into unique tokens  
-**3. Stop-Words Filter -** Blacklisted the Stop-Words that were present within the Keywords  
-**4. Delimiter -** Set of Keywords were delimited by space using String Tokenizer. **Apache POI** was used to read and write data to an Excel sheet  
-**5. Database Insertion -** Keywords from the Workbook (Excel file) were inserted into Database using Java DataBase Connectivity **(JDBC)**   </p>
+&emsp;**1. Webpage Keyword Extractor -** Designed a Multi-threaded **Crawler** to parse and extract the keywords from each webpage's Metatag using JSoup  
+&emsp;**2. Keyword Splitter -** The words and phrases were split into unique tokens  
+&emsp;**3. Stop-Words Filter -** Blacklisted the Stop-Words that were present within the Keywords  
+&emsp;**4. Delimiter -** Set of Keywords were delimited by space using String Tokenizer. **Apache POI** was used to read and write data to an Excel sheet  
+&emsp;**5. Database Insertion -** Keywords from the Workbook (Excel file) were inserted into Database using Java DataBase Connectivity **(JDBC)**   </p>
 
 ### 2. Data Mining - Naive Bayes Classifier
 1. Weka Library is used to perform classification of the Advertisement and Webpage category and produce AdKeyword and PageKeyword models.  
