@@ -2,7 +2,7 @@
 This project aims to do **E-marketing** by connecting the **Business Advertisers** with the **Public** (customers) by displaying **Relevant and Preferred Online Advertisements** via Websites called **Publishers**, resulting in Website Monetization just like Google AdSense.
 
 ## Software and Languages ##
-**Languages -** Java, Java Servet Pages (JSP), JavaScript  
+**Languages -** Java, JavaServer Pages (JSP), JavaScript  
 **Libraries -** Weka, JSoup, Apache POI  
 **Database -** MySQL  
 **Server -** Tomcat 7.0.56  
