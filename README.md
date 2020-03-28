@@ -8,7 +8,7 @@ This project aims to do **E-marketing** by connecting the **Business Advertisers
 **Server -** Tomcat 7.0.56  
 
 ## Functionalities ##
-**Idea -** Platform where Advertisers sells Advertisements and Publisher Websites gets paid for displaying those Ads  
+**Idea -** Platform where Advertisers sells Ads and Publisher Websites gets paid for displaying those Ads  
 **Algorithms used -** Naive Bayes (For Text Classification) and Ad Ranking Algorithm (Based on 5 features)  
 **Monetization Factors -** Cost per Click (CPC), Cost per Impression (CPM)  
 **Features -** Relevancy of Ad to the Page, Location, CPC, CPM, Premium Membership  
