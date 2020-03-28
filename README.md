@@ -1,4 +1,4 @@
-# MagicAds - Targeted Advertising System
+# AdMagic - Targeted Advertising System
 This project aims to do **E-marketing** by connecting the **Business Advertisers** with the **Public** (customers) by displaying **Relevant and Preferred Online Advertisements** via Websites called **Publishers**, resulting in Website Monetization just like Google AdSense.
 
 ## Software and Languages ##
